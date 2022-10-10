@@ -1,0 +1,47 @@
+.foodcat_item_maincon {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+.foodcat_item_maincon:hover {
+    box-shadow: 8px 8px 3px rgb(120, 119, 119);
+    /* transform: translateX(-8px); */
+    transform: translate(-3px, -3px);
+
+}
+
+.foodcat_maincon span {
+    padding: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.654);
+    color: orange;
+    font-size: 30px;
+    text-decoration: none !important;
+}
+
+.foodcat_maincon span:hover {
+    background-color: black;
+}
+
+.foodcat_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.cat_link {
+    color: rgba(0, 0, 0, 0)
+}
+
+.cat_link:hover {
+    color: rgba(0, 0, 0, 0)
+}

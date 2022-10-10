@@ -1,0 +1,68 @@
+.home_maincon {
+    background-image: url('https://assets.website-files.com/5e887af1bcf6e12167c0bd37/5e9f01765118203f460ad623_lunch1.jpg');
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+
+.home_innerdiv {
+    width: 80%;
+    margin: auto;
+    min-height: 50vh;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.377);
+    box-shadow: 0px 0px 15px white;
+}
+
+.home_del {
+    color: orange;
+}
+
+.home_head {
+    color: white;
+    font-weight: bold;
+}
+
+.home_btn {
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all 0.2s linear;
+}
+
+a:hover {
+    color: orange;
+}
+
+.home_btn:hover {
+    color: orange;
+    background-color: white;
+    border: 2px solid orange;
+}
+
+.home_btn:hover a {
+    color: orange;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* @media (min-width:767px) {
+    .home_maincon {
+        width: 100%;
+        position: absolute;
+        top: 72px;
+        left: 0px;
+        z-index: -1;
+    }
+} */

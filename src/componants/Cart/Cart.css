@@ -1,0 +1,84 @@
+.cart_leftpart {
+    background-color: #171a29;
+    color: white;
+    /* height: 75vh;
+    overflow: scroll; */
+    border-radius: 15px;
+}
+
+.cart_maincon {
+    background-color: #171a29;
+    color: white;
+}
+
+.cart_rightpart {
+    border-radius: 40px;
+    max-width: 400px;
+    padding: 30px;
+    height: 550px;
+    position: sticky;
+    top: 100px;
+    border: 4px double white;
+}
+
+.cart_rightpart button {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 5px;
+    margin: auto;
+}
+
+hr {
+    height: 3px;
+    margin: 20px 0px;
+    background-color: orange;
+    opacity: 1;
+
+}
+
+.cart_name {
+    font-size: 20px;
+    color: orange;
+}
+
+.cart_leftpart::-webkit-scrollbar {
+    width: 6px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: orange;
+}
+
+.cart_rightpart small {
+    color: red;
+}
+
+.name_warning,
+.mobile_warning,
+.address_warning,
+.pincode_warning {
+    display: none;
+}
+
+.cart_tot_pay {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cart_rightpart input {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    box-shadow: 0px 0px 2px black;
+    border: none;
+    border-bottom: 4px solid orange;
+}
+
+.cart_rightpart label {
+    font-size: 20px;
+}
